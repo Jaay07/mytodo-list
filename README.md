@@ -1,63 +1,111 @@
-# todo-list
+# Todo List Web Application with Voice Recognition
 
-## Instructions:
-1. Fork the github repo into your personal Github account and take a clone into your local system.
-    
-    Guide to Forking Github Repo: https://docs.github.com/en/github-ae@latest/get-started/quickstart/fork-a-repo
-    
-    Guide for cloning Github Repo: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
-    
-2. Instantiate Virtual Studio code or any Development environment of your choice to complete the assessment in your local working directory.
-3. Save the files and push it into forked Github github repo.
-    
-    Guide to pushing code into Github Repo: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
-    
-4. Record a screencast video recording demonstrating the solution in your system and upload the video into the forked github repo.
-    
-    Guide to record screen in
-    
-    a) MAC: https://support.apple.com/en-in/102618
-    
-    b) Windows: https://www.microsoft.com/en-us/windows/learning-center/how-to-record-screen-windows-11
-    
-    c) Ubuntu: https://askubuntu.com/questions/4428/how-can-i-record-my-screen
-    
-5. Share the repository link into the Google Form: [https://forms.gle/2HbLP8GNiYArZFsj8](https://forms.gle/ufqFg2Kgk5C54Amn7)
-![image](https://github.com/user-attachments/assets/712746d0-19c1-4112-b812-b2d933fef869)
+## Overview
 
-## Problem Statement:
-Your task is to create a TODO List, 
-wait... its not a normal TODO list that you find in Youtube, The task is to build a TODO list that works for everyone, this includes:-
-- people of all Ages (old age , small kids ) 
-- people with various physical challenges (blindness, limited dexterity ,high eye-sight, color blindness)   
-- people in all the instances (morning, night ,dnd time)
-- people from all regions (language issue,...)
-- many more...
+Welcome to the **Todo List Web Application** – a user-friendly tool designed to help you manage and organize your tasks. This application provides an intuitive interface with the added feature of **voice recognition**, specifically designed to assist visually impaired users, making task management more accessible.
 
-Individuals with special needs face a variety of challenges, creating an open-ended assessment. You are encouraged to assume and include any features that would enhance the website's usability for all users. Please detail all the features and issues addressed in the **README of the repository**, as this will aid us in evaluating your submission. 
+With this app, you can:
+- Add, update, and delete tasks via voice commands.
+- Track your tasks in a simple and clear list.
+- Interact with the list easily, even if you have limited or no sight.
 
-Our aim is to assess applicants' aptitude, innovative thinking, and their ability to empathize with and understand user needs.
+## Features
 
-- **If you are a frontend developer** : build only the frontend of the TODO list make it work with a local variable,applicants are free to explore any techstack (quick secret: live link would add value to the submission)
-- **If you are a Fullstack developer**: build both the frontend and backend of the TODO list, applicants are free to explore any techstack (quick secret: live link would add value to the submission)
-- **If you are a Designer** : Design the UI and create a document on all the Ui/ux principles used and upload the document with the design hyperlink enclosed in the document. applicants are free to use any application to build the wireframes
-## **Deliverables**:
-### Applicants for frontend role 
-1) Github Repo containing code
-2) Video recording of the website
-3) Readme explaining the steps and features
-4) live link of the website (optional)
-### Applicants for fullstack role 
-1) Github Repo containing both frontend and backend in single repo
-2) Video recording of the website
-3) Readme explaining the steps and features
-4) live link of the website (optional)
-### Applicants for designer role
-1) document link explaining UI/UX principles used
-2) wireframe (figma , framer ...)
+### 1. **Voice Recognition for Task Management**
+- You can add, update, and remove tasks by simply speaking to the application.
+- The application processes your voice input, converting it into text, and updates your task list accordingly.
 
 
+### 2. **Task Tracking and Management**
+- The app keeps a track of all your tasks, allowing you to view them in a clear list format.
+- You can update any task on your list by either speaking directly or navigating using keyboard shortcuts.
 
-**Push the source code along with a demo video of your solution into the forked github repo. Share the repo link in the google form: [https://forms.gle/2HbLP8GNiYArZFsj8](https://forms.gle/ufqFg2Kgk5C54Amn7)**
+### 3. **Accessible Interface for Blind and Visually Impaired Users**
+- The app is designed with accessibility in mind, integrating voice feedback and screen reader compatibility.
+- Large, easy-to-read text and intuitive navigation ensure that even users with limited vision can use the app with ease.
 
-Designers can provide a link to the document outlining all the UI/UX principles used instead of a GitHub link.
+### 4. Task Prioritization
+- You can assign priority levels to tasks to help you focus on what’s most important.
+- The priority can be set via voice command or manually if preferred.
+
+### 5. Responsive Feedback
+- When a task is added, updated, or deleted, the application provides feedback, confirming the action has been completed.
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/todo-list-web-app.git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd todo-list-web-app
+   ```
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Start the development server:**
+   ```bash
+   npm start
+   ```
+
+## Usage
+
+### Adding a Task
+Simply say, "Add task [your task name]". For example:
+- "Add task Buy groceries"
+- "Add task Finish homework"
+
+The app will confirm the task has been added and update the list.
+
+### Updating a Task
+To update an existing task, say:
+- "Update task [task number] to [new task name]"
+- Example: "Update task 2 to Take the dog for a walk"
+
+### Marking a Task as Complete
+To mark a task as complete, say:
+- "Mark task [task number] as complete"
+- Example: "Mark task 1 as complete"
+
+### Deleting a Task
+To delete a task, say:
+- "Delete task [task number]"
+- Example: "Delete task 3"
+
+### Navigating Tasks
+The app is designed with keyboard shortcuts and voice feedback to help navigate through the task list. Use **Tab** and **Arrow keys** to move through tasks and **Enter** to select or mark them as completed.
+
+## Accessibility
+
+This web application is fully optimized for screen readers and other assistive technologies. It’s designed to support users with visual impairments by:
+- Providing spoken feedback for all major actions.
+- Using simple, accessible HTML5 and ARIA roles for better screen reader compatibility.
+- Allowing task management through voice commands, minimizing the need for visual interaction.
+
+## Technologies Used
+
+- Frontend:HTML5, CSS3, JavaScript (ES6+)
+- Voice Recognition:WINDOWS Speech Recognition
+
+## Future Enhancements
+- Integration with cloud services for syncing tasks across devices.
+- More advanced voice commands and natural language processing (NLP) for better task management.
+- Additional accessibility features, such as text-to-speech feedback for task descriptions.
+
+## Contributing
+
+We welcome contributions! To get started:
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Commit your changes.
+5. Push to your branch.
+6. Create a pull request.
+
+
+
+## Contact
+
+For any questions or suggestions, please feel free to open an issue or contact the project maintainer at [srinjaymishra003@gmail.com].
